@@ -1,0 +1,74 @@
+---
+import { site } from '../data/site.js';
+import allProducts from '../data/products.json';
+import Icon from './Icon.astro';
+import { useT, href, asset } from '../i18n/ui.js';
+const { lang = 'vi' } = Astro.props;
+const t = useT(lang);
+const L = (vi, en) => (lang === 'en' ? en : vi);
+const heroImg = allProducts.find((p) => p.image)?.image;
+const para = L(
+  'Vĩnh Cường Vina là đơn vị chuyên sản xuất các loại bìa hồ sơ và văn phòng phẩm. Với nhà máy tại Long An và kho hàng tại TP.HCM, chúng tôi mang đến hơn 80 mẫu bìa đa dạng — bìa nút, bìa lá, trình ký, bìa còng, album, bìa 12 ngăn… chất lượng cao, giá tận xưởng. Chúng tôi cam kết sản phẩm bền đẹp, giao hàng nhanh toàn quốc và tư vấn tận tình cho khách sỉ, lẻ và doanh nghiệp.',
+  'Vĩnh Cường Vina is a manufacturer of office files and folders. From our factory in Long An and warehouse in Ho Chi Minh City, we make 80+ folder models — snap, sheet, signature, lever-arch, display books, 12-pocket cases and more — at high quality and factory-direct prices, with fast nationwide delivery and attentive service for retail, wholesale and business customers.'
+);
+const stats = [
+  { n: '15+', l: L('Năm kinh nghiệm', 'Years') },
+  { n: '80+', l: L('Mẫu sản phẩm', 'Models') },
+  { n: '63', l: L('Tỉnh thành', 'Provinces') },
+  { n: '100%', l: L('Sản xuất tại VN', 'Made in VN') },
+];
+---
+<div class="wrap"><nav class="crumbs"><a href={href(lang, '/')}>{t('nav.home')}</a><span>/</span>{t('nav.about')}</nav></div>
+
+<section class="about">
+  <div class="wrap about-grid">
+    <div class="about-txt">
+      <span class="pill">{t('label.company')}</span>
+      <h1>{site.brand}</h1>
+      <p class="lead">{para}</p>
+      <div class="facts">
+        <div class="f"><span class="fi"><Icon name="factory" size={20} /></span><div><b>{t('label.factory')}</b><span>Long An</span></div></div>
+        <div class="f"><span class="fi"><Icon name="warehouse" size={20} /></span><div><b>{t('label.warehouse')}</b><span>TP.HCM (Tân Phú)</span></div></div>
+        <div class="f"><span class="fi"><Icon name="phone" size={20} /></span><div><b>{t('label.contact')}</b><a href={`tel:${site.phone_tel}`}>{site.phone}</a></div></div>
+      </div>
+      <div class="about-cta">
+        <a class="btn btn-red btn-lg" href={href(lang, '/san-pham')}>{L('Xem sản phẩm', 'Browse products')}</a>
+        <a class="btn btn-ghost btn-lg" href={href(lang, '/lien-he')}>{t('nav.contact')}</a>
+      </div>
+    </div>
+    <div class="about-media">
+      <div class="am-card">
+        {heroImg ? <img src={asset(heroImg)} alt={site.brand} /> : <img src={asset('img/logo.png')} alt={site.brand} />}
+      </div>
+      <div class="am-stats">
+        {stats.map((s) => <div class="st"><b>{s.n}</b><small>{s.l}</small></div>)}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .about{padding:26px 0 40px}
+  .about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+  .about-txt h1{font-size:34px;font-weight:800;color:var(--blue);margin:12px 0 14px}
+  .about-txt .lead{font-size:16px;color:var(--ink);line-height:1.7;margin:0 0 22px}
+  .facts{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+  .facts .f{display:flex;gap:10px;align-items:center;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:10px 14px;flex:1;min-width:150px}
+  .facts .fi{font-size:20px}
+  .facts b{display:block;font-size:11px;color:var(--slate);text-transform:uppercase;letter-spacing:.03em}
+  .facts span,.facts a{font-size:14px;font-weight:600}
+  .facts a{color:var(--red)}
+  .about-cta{display:flex;gap:12px;flex-wrap:wrap}
+  .about-media{display:flex;flex-direction:column;gap:16px}
+  .am-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px;aspect-ratio:4/3;display:grid;place-items:center;box-shadow:var(--shadow)}
+  .am-card img{max-width:100%;max-height:100%;object-fit:contain}
+  .am-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .am-stats .st{background:linear-gradient(135deg,var(--blue),var(--blue-d));color:#fff;border-radius:12px;padding:14px 8px;text-align:center}
+  .am-stats b{font-size:22px;font-weight:800;display:block;line-height:1}
+  .am-stats small{font-size:11px;opacity:.9}
+  @media(max-width:900px){
+    .about-grid{grid-template-columns:1fr;gap:26px}
+    .about-txt h1{font-size:28px}
+    .am-card{aspect-ratio:16/10}
+  }
+</style>

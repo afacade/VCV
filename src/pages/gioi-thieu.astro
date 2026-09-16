@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import AboutContent from '../components/AboutContent.astro';
+import { infoPages } from '../data/site.js';
+const lang = 'vi';
+const meta = infoPages['gioi-thieu'];
+---
+<Base lang={lang} active="about" path="/gioi-thieu" title={meta.vi}>
+  <AboutContent lang={lang} />
+</Base>

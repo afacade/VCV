@@ -1,0 +1,11 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zalo">
+  <defs>
+    <linearGradient id="zbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0091FF"/>
+      <stop offset="1" stop-color="#0068FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="13" fill="url(#zbg)"/>
+  <path d="M24 10.5c-8 0-14.5 5.3-14.5 11.9 0 3.8 2.1 7.2 5.5 9.4-.2 1.5-.9 3.2-2.1 4.6-.4.5 0 1.2.6 1 2.8-.6 4.8-1.5 6.1-2.3 1.4.4 2.9.6 4.4.6 8 0 14.5-5.3 14.5-11.9S32 10.5 24 10.5z" fill="#fff"/>
+  <text x="24" y="23.4" font-family="Arial, Helvetica, sans-serif" font-size="10.6" font-weight="800" fill="#0068FF" text-anchor="middle" dominant-baseline="central" letter-spacing="-0.4">Zalo</text>
+</svg>

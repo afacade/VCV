@@ -1,0 +1,67 @@
+---
+import { site } from '../data/site.js';
+import Icon from './Icon.astro';
+import { useT, href } from '../i18n/ui.js';
+const { lang = 'vi' } = Astro.props;
+const t = useT(lang);
+const L = (vi, en) => (lang === 'en' ? en : vi);
+---
+<div class="wrap">
+  <nav class="crumbs"><a href={href(lang, '/')}>{t('nav.home')}</a><span>/</span>{t('nav.contact')}</nav>
+</div>
+
+<section class="contact">
+  <div class="wrap">
+    <header class="art-head"><h1>{t('nav.contact')}</h1></header>
+    <div class="c-grid">
+      <div class="c-info">
+        <div class="ci-row"><span class="ic"><Icon name="phone" size={20} /></span><div><b>{L('Điện thoại / Zalo', 'Phone / Zalo')}</b><a href={`tel:${site.phone_tel}`}>{site.phone}</a></div></div>
+        <div class="ci-row"><span class="ic"><Icon name="phone" size={20} /></span><div><b>{t('label.hotline')}</b><a href={`tel:${site.hotline.replace(/\./g,'')}`}>{site.hotline}</a></div></div>
+        <div class="ci-row"><span class="ic"><Icon name="mail" size={20} /></span><div><b>Email</b><a href={`mailto:${site.email}`}>{site.email}</a></div></div>
+        <div class="ci-row"><span class="ic"><Icon name="factory" size={20} /></span><div><b>{L('Nhà máy', 'Factory')}</b><span>{L(site.address_factory_vi, site.address_factory_en).replace(/^.*?:\s*/, '')}</span></div></div>
+        <div class="ci-row"><span class="ic"><Icon name="warehouse" size={20} /></span><div><b>{L('Kho hàng', 'Warehouse')}</b><span>{L(site.address_warehouse_vi, site.address_warehouse_en).replace(/^.*?:\s*/, '')}</span></div></div>
+      </div>
+
+      <form class="c-form" id="contact-form">
+        <h3>{L('Gửi tin nhắn cho chúng tôi', 'Send us a message')}</h3>
+        <p class="muted">{L('Điền thông tin và bấm gửi — email của bạn sẽ mở sẵn nội dung.', 'Fill in the form and hit send — your email opens ready to go.')}</p>
+        <div class="row2">
+          <input type="text" id="cf-name" placeholder={L('Họ và tên', 'Full name')} required />
+          <input type="tel" id="cf-phone" placeholder={L('Số điện thoại', 'Phone number')} />
+        </div>
+        <textarea id="cf-msg" rows="5" placeholder={L('Nội dung cần tư vấn / báo giá…', 'Your message / quote request…')} required></textarea>
+        <button type="submit" class="btn btn-red btn-lg"><Icon name="mail" size={18} /> {t('cta.sendEmail')}</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<style>
+  .contact{padding:20px 0 44px}
+  .art-head{margin-bottom:22px;padding-bottom:18px;border-bottom:2px solid var(--line)}
+  .art-head h1{font-size:30px}
+  .c-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:36px;align-items:start}
+  .ci-row{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .ci-row .ic{width:44px;height:44px;border-radius:11px;background:var(--blue-l);display:grid;place-items:center;font-size:20px;flex:none}
+  .ci-row b{display:block;font-size:13px;color:var(--slate);font-weight:600;margin-bottom:2px}
+  .ci-row a,.ci-row span{color:var(--ink)}
+  .c-form{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+  .c-form h3{font-size:20px;margin-bottom:6px}
+  .c-form p{margin:0 0 16px;font-size:13.5px}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .c-form input,.c-form textarea{width:100%;border:1px solid var(--line);border-radius:9px;padding:12px 14px;font-family:inherit;font-size:14px;margin-bottom:12px;background:#fff;outline:none}
+  .c-form input:focus,.c-form textarea:focus{border-color:var(--blue)}
+  @media(max-width:820px){.c-grid{grid-template-columns:1fr}.row2{grid-template-columns:1fr}}
+</style>
+
+<script define:vars={{ email: site.email, subj: t('quote.subject') }}>
+  const form = document.getElementById('contact-form');
+  if (form) form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('cf-name').value;
+    const phone = document.getElementById('cf-phone').value;
+    const msg = document.getElementById('cf-msg').value;
+    const body = `${msg}\n\n---\n${name}${phone ? ' · ' + phone : ''}`;
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subj + (name ? ' - ' + name : ''))}&body=${encodeURIComponent(body)}`;
+  });
+</script>

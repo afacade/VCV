@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "bia-lo",
+    "vi": "Bìa Lỗ",
+    "en": "Punched Folders",
+    "color": "#1B3B96",
+    "order": 1,
+    "icon": "img/cat/bia-lo.jpg",
+    "count": 9
+  },
+  {
+    "slug": "bia-la-nhieu-la",
+    "vi": "Bìa Lá – Nhiều Lá",
+    "en": "Sheet Folders",
+    "color": "#0EA371",
+    "order": 2,
+    "icon": "img/cat/bia-la-nhieu-la.jpg",
+    "count": 6
+  },
+  {
+    "slug": "bia-trinh-ky",
+    "vi": "Bìa Trình Ký",
+    "en": "Signature Folders",
+    "color": "#E11B22",
+    "order": 3,
+    "icon": "img/cat/bia-trinh-ky.jpg",
+    "count": 9
+  },
+  {
+    "slug": "bia-nut",
+    "vi": "Bìa Nút",
+    "en": "Snap Folders",
+    "color": "#F59E0B",
+    "order": 4,
+    "icon": "img/cat/bia-nut.png",
+    "count": 8
+  },
+  {
+    "slug": "bia-cay",
+    "vi": "Bìa Cây",
+    "en": "Spine Files",
+    "color": "#7C3AED",
+    "order": 5,
+    "icon": "img/cat/bia-cay.jpg",
+    "count": 5
+  },
+  {
+    "slug": "bia-phan-trang",
+    "vi": "Bìa Phân Trang",
+    "en": "Index Dividers",
+    "color": "#475569",
+    "order": 6,
+    "icon": "img/cat/bia-phan-trang.jpg",
+    "count": 4
+  },
+  {
+    "slug": "bia-cong",
+    "vi": "Bìa Còng",
+    "en": "Lever-Arch Binders",
+    "color": "#0891B2",
+    "order": 7,
+    "icon": "img/cat/bia-cong.jpg",
+    "count": 8
+  },
+  {
+    "slug": "bia-kep",
+    "vi": "Bìa Kẹp",
+    "en": "Clip Folders",
+    "color": "#DB2777",
+    "order": 8,
+    "icon": "img/cat/bia-kep.jpg",
+    "count": 8
+  },
+  {
+    "slug": "bia-12-ngan",
+    "vi": "Bìa 12 Ngăn",
+    "en": "12-Pocket Cases",
+    "color": "#2563EB",
+    "order": 9,
+    "icon": "img/cat/bia-12-ngan.jpg",
+    "count": 4
+  },
+  {
+    "slug": "bia-album",
+    "vi": "Bìa Album",
+    "en": "Display Books",
+    "color": "#CA8A04",
+    "order": 10,
+    "icon": "img/cat/bia-album.jpg",
+    "count": 14
+  },
+  {
+    "slug": "bia-hop",
+    "vi": "Bìa Hộp",
+    "en": "Box Folders",
+    "color": "#16A34A",
+    "order": 11,
+    "icon": "img/cat/bia-hop.jpg",
+    "count": 4
+  },
+  {
+    "slug": "bia-acco-bao-cao",
+    "vi": "Bìa Acco, Báo Cáo",
+    "en": "Report Folders",
+    "color": "#9333EA",
+    "order": 12,
+    "icon": "img/cat/bia-acco-bao-cao.jpg",
+    "count": 1
+  }
+]

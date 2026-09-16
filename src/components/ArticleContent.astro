@@ -1,0 +1,34 @@
+---
+import { useT, href } from '../i18n/ui.js';
+const { lang = 'vi', title, text = '', date = null, crumbParent = null } = Astro.props;
+const t = useT(lang);
+// Split plain text into paragraphs on blank lines; keep single newlines as breaks.
+const paras = String(text).split(/\n\s*\n/).map((s) => s.trim()).filter(Boolean);
+---
+<div class="wrap">
+  <nav class="crumbs">
+    <a href={href(lang, '/')}>{t('nav.home')}</a><span>/</span>
+    {crumbParent && <><a href={crumbParent.url}>{crumbParent.label}</a><span>/</span></>}
+    {title}
+  </nav>
+</div>
+
+<section class="article">
+  <div class="wrap">
+    <header class="art-head">
+      <h1>{title}</h1>
+      {date && <p class="muted">{new Date(date).toLocaleDateString(lang === 'en' ? 'en-GB' : 'vi-VN')}</p>}
+    </header>
+    <div class="prose">
+      {paras.length
+        ? paras.map((p) => <p set:html={p.replace(/\n/g, '<br>')} />)
+        : <p class="muted">{lang === 'en' ? 'Content coming soon.' : 'Nội dung đang được cập nhật.'}</p>}
+    </div>
+  </div>
+</section>
+
+<style>
+  .article{padding:20px 0 40px}
+  .art-head{margin-bottom:22px;padding-bottom:18px;border-bottom:2px solid var(--line)}
+  .art-head h1{font-size:30px}
+</style>

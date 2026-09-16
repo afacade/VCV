@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductDetail from '../../components/ProductDetail.astro';
+import products from '../../data/products.json';
+export function getStaticPaths() {
+  return products.map((p) => ({ params: { slug: p.slug }, props: { product: p } }));
+}
+const lang = 'vi';
+const { product } = Astro.props;
+---
+<Base lang={lang} active="products" path={`/san-pham/${product.slug}`} title={product.name_vi} description={product.short_vi || undefined}>
+  <ProductDetail lang={lang} product={product} />
+</Base>

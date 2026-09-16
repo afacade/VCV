@@ -1,0 +1,13 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ProductsContent from '../../../components/ProductsContent.astro';
+import categories from '../../../data/categories.json';
+export function getStaticPaths() {
+  return categories.map((c) => ({ params: { category: c.slug }, props: { cat: c } }));
+}
+const lang = 'en';
+const { cat } = Astro.props;
+---
+<Base lang={lang} active="products" path={`/danh-muc/${cat.slug}`} title={cat.en}>
+  <ProductsContent lang={lang} category={cat.slug} />
+</Base>

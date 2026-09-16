@@ -1,0 +1,42 @@
+---
+import ProductCard from './ProductCard.astro';
+import Icon from './Icon.astro';
+import allProducts from '../data/products.json';
+import { useT, href } from '../i18n/ui.js';
+const { lang = 'vi' } = Astro.props;
+const t = useT(lang);
+---
+<div class="wrap">
+  <nav class="crumbs"><a href={href(lang, '/')}>{t('nav.home')}</a><span>/</span>{t('nav.fav')}</nav>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="pill"><Icon name="heart" size={13} solid={true} /> {t('nav.fav')}</span>
+        <h2>{t('fav.title')}</h2>
+        <p class="muted"><span id="fav-page-count">0</span> {t('fav.count')}</p>
+      </div>
+    </div>
+
+    <div id="fav-page">
+      <div class="pgrid" id="fav-grid" hidden>
+        {allProducts.map((p) => (
+          <div class="pgrid-item" data-fav-item={p.slug} hidden><ProductCard lang={lang} product={p} /></div>
+        ))}
+      </div>
+      <div class="fav-empty" id="fav-empty">
+        <div class="fe-ic"><Icon name="heart" size={52} stroke={1.5} /></div>
+        <p>{t('fav.empty')}</p>
+        <a class="btn btn-red btn-lg" href={href(lang, '/san-pham')}>{t('fav.browse')}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .fav-empty{text-align:center;padding:48px 0 60px}
+  .fav-empty .fe-ic{color:#c8cdd8;margin-bottom:12px}
+  .fav-empty p{color:var(--slate);max-width:420px;margin:0 auto 20px}
+</style>

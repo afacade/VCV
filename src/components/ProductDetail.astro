@@ -1,0 +1,157 @@
+---
+import ProductCard from './ProductCard.astro';
+import Icon from './Icon.astro';
+import categories from '../data/categories.json';
+import allProducts from '../data/products.json';
+import { site } from '../data/site.js';
+import { useT, href, asset, money } from '../i18n/ui.js';
+
+const { lang = 'vi', product } = Astro.props;
+const t = useT(lang);
+const cat = categories.find((c) => c.slug === product.category);
+const catName = cat ? (lang === 'en' ? cat.en : cat.vi) : '';
+const name = lang === 'en' ? product.name_en : product.name_vi;
+const images = [product.image, ...(product.gallery || [])].filter(Boolean);
+const related = allProducts.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
+const quoteHref = `mailto:${site.email}?subject=${encodeURIComponent(t('quote.subject') + ': ' + product.name_vi)}&body=${encodeURIComponent((lang === 'en' ? 'I would like a quote for: ' : 'Tôi muốn nhận báo giá sản phẩm: ') + product.name_vi)}`;
+const sale = product.price ?? product.price_min;
+const regular = product.price_regular && product.price_regular > sale ? product.price_regular : null;
+const pct = regular ? Math.round((1 - sale / regular) * 100) : 0;
+---
+<div class="wrap">
+  <nav class="crumbs">
+    <a href={href(lang, '/')}>{t('nav.home')}</a><span>/</span>
+    <a href={href(lang, '/san-pham')}>{t('nav.products')}</a>
+    {cat && <><span>/</span><a href={href(lang, `/danh-muc/${cat.slug}`)}>{catName}</a></>}
+    <span>/</span>{name}
+  </nav>
+</div>
+
+<section class="pd">
+  <div class="wrap pd-grid">
+    <div class="gallery">
+      <button class="main" id="pd-open" type="button" aria-label={t('zoom.hint')}>
+        {images[0] ? <img id="pd-main" src={asset(images[0])} alt={name} /> : <div class="noimg"><Icon name="image" size={64} /></div>}
+        {images[0] && <span class="zoom-hint"><Icon name="zoom" size={14} /> {t('zoom.hint')}</span>}
+      </button>
+      {images.length > 1 && (
+        <div class="thumbs">
+          {images.map((im, i) => (
+            <button class={i === 0 ? 'on' : ''} data-src={asset(im)} aria-label={`Image ${i + 1}`}>
+              <img src={asset(im)} alt="" />
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+
+    <div class="info">
+      {catName && <a class="pill" href={href(lang, `/danh-muc/${cat.slug}`)}>{catName}</a>}
+      <h1>{name}</h1>
+      <div class="price-box">
+        <span class="pl">{t('label.price')}</span>
+        <span class="pv">{money(sale)}</span>
+        {regular && <span class="pv-old">{money(regular)}</span>}
+        {pct > 0 && <span class="pv-off">-{pct}%</span>}
+      </div>
+      {product.variable && <p class="vnote"><Icon name="info" size={16} /> {t('prod.variants')}</p>}
+      {product.short_vi && lang === 'vi' && <p class="short">{product.short_vi}</p>}
+
+      <div class="order-card">
+        <div class="oc-head">
+          <b>{t('prod.order.title')}</b>
+          <small>{t('prod.order.sub')}</small>
+        </div>
+        <div class="oc-btns">
+          <a class="btn btn-red btn-lg" href={`tel:${site.phone_tel}`}><Icon name="phone" size={18} /> {site.phone}</a>
+          <a class="btn btn-zalo btn-lg" href={site.zalo} target="_blank" rel="noopener"><Icon name="chat" size={18} /> {t('cta.zalo')}</a>
+          <a class="btn btn-ghost btn-lg btn-block" href={quoteHref}><Icon name="mail" size={18} /> {t('cta.quote')}</a>
+        </div>
+        <div class="oc-hot"><Icon name="phone" size={15} /> {t('label.hotline')}: <b>{site.hotline}</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{related.length > 0 && (
+  <section class="related">
+    <div class="wrap">
+      <div class="sec-head"><h2>{t('label.related')}</h2></div>
+      <div class="pgrid">{related.map((p) => <ProductCard lang={lang} product={p} />)}</div>
+    </div>
+  </section>
+)}
+
+<!-- Lightbox (zoom popup) -->
+<div class="lightbox" id="lb" hidden>
+  <button class="lb-x" id="lb-x" aria-label="Close">✕</button>
+  <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous">‹</button>
+  <img id="lb-img" src="" alt={name} />
+  <button class="lb-nav lb-next" id="lb-next" aria-label="Next">›</button>
+</div>
+
+<style>
+  .pd{padding:16px 0 44px}
+  .lightbox{position:fixed;inset:0;z-index:80;background:rgba(10,14,22,.92);display:flex;align-items:center;justify-content:center;padding:40px}
+  .lightbox img{max-width:90vw;max-height:86vh;object-fit:contain;border-radius:8px;background:#fff}
+  .lb-x{position:absolute;top:18px;right:22px;background:transparent;border:0;color:#fff;font-size:28px;cursor:pointer;line-height:1}
+  .lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:30px;cursor:pointer}
+  .lb-nav:hover{background:rgba(255,255,255,.26)}
+  .lb-prev{left:18px}.lb-next{right:18px}
+  .pd-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:start}
+  .gallery .main{position:relative;width:100%;background:#fff;border:1px solid var(--line);border-radius:var(--radius);aspect-ratio:1;display:grid;place-items:center;padding:24px;cursor:zoom-in}
+  .gallery .main img{max-width:100%;max-height:100%;object-fit:contain}
+  .gallery .main .zoom-hint{position:absolute;bottom:12px;right:12px;background:rgba(20,25,34,.72);color:#fff;font-size:12px;font-weight:600;padding:6px 12px;border-radius:999px;opacity:0;transition:.15s}
+  .gallery .main:hover .zoom-hint{opacity:1}
+  .noimg{font-size:64px;color:var(--line)}
+  .thumbs{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+  .thumbs button{width:72px;height:72px;border:1px solid var(--line);border-radius:8px;background:#fff;padding:6px;cursor:pointer}
+  .thumbs button.on{border-color:var(--blue)}
+  .thumbs img{width:100%;height:100%;object-fit:contain}
+  .info h1{font-size:28px;margin:12px 0 16px;line-height:1.25}
+  .price-box{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;background:var(--soft);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin-bottom:16px}
+  .price-box .pl{color:var(--slate);font-size:13px}
+  .price-box .pv{color:var(--red);font-size:26px;font-weight:800}
+  .price-box .pv-old{color:#9aa0ad;font-size:17px;text-decoration:line-through}
+  .price-box .pv-off{background:var(--red);color:#fff;font-weight:800;font-size:13px;padding:3px 10px;border-radius:999px;align-self:center}
+  .vnote{background:#FFF7E6;border:1px solid #FCE4B6;color:#7a5b12;padding:10px 14px;border-radius:8px;font-size:13.5px;margin:0 0 14px}
+  .short{color:var(--slate);margin:0 0 16px}
+  .order-card{border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+  .oc-head b{font-size:16px}
+  .oc-head small{display:block;color:var(--slate);margin-top:2px}
+  .oc-btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0 12px}
+  .oc-btns .btn-block{grid-column:1/-1}
+  .oc-hot{text-align:center;color:var(--slate);font-size:14px}
+  .oc-hot b{color:var(--ink)}
+  .related{background:var(--soft)}
+  @media(max-width:820px){.pd-grid{grid-template-columns:1fr;gap:24px}}
+</style>
+
+<script define:vars={{ imgs: images.map((im) => asset(im)) }}>
+  let idx = 0;
+  const main = document.getElementById('pd-main');
+  const thumbs = [...document.querySelectorAll('.thumbs button')];
+  const lb = document.getElementById('lb');
+  const lbImg = document.getElementById('lb-img');
+  function show(i) {
+    if (!imgs.length) return;
+    idx = (i + imgs.length) % imgs.length;
+    if (main) main.src = imgs[idx];
+    if (lb && !lb.hidden) lbImg.src = imgs[idx];
+    thumbs.forEach((x, j) => x.classList.toggle('on', j === idx));
+  }
+  thumbs.forEach((b, i) => b.addEventListener('click', () => show(i)));
+  function openLb() { if (!imgs.length) return; lbImg.src = imgs[idx]; lb.hidden = false; document.body.style.overflow = 'hidden'; }
+  function closeLb() { lb.hidden = true; document.body.style.overflow = ''; }
+  document.getElementById('pd-open')?.addEventListener('click', openLb);
+  document.getElementById('lb-x')?.addEventListener('click', closeLb);
+  document.getElementById('lb-prev')?.addEventListener('click', (e) => { e.stopPropagation(); show(idx - 1); });
+  document.getElementById('lb-next')?.addEventListener('click', (e) => { e.stopPropagation(); show(idx + 1); });
+  lb?.addEventListener('click', (e) => { if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', (e) => {
+    if (!lb || lb.hidden) return;
+    if (e.key === 'Escape') closeLb();
+    else if (e.key === 'ArrowLeft') show(idx - 1);
+    else if (e.key === 'ArrowRight') show(idx + 1);
+  });
+</script>

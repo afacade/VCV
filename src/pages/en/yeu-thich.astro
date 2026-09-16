@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import FavoritesContent from '../../components/FavoritesContent.astro';
+import { useT } from '../../i18n/ui.js';
+const lang = 'en';
+const t = useT(lang);
+---
+<Base lang={lang} active="" path="/yeu-thich" title={t('fav.title')}>
+  <FavoritesContent lang={lang} />
+</Base>

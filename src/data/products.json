@@ -1,0 +1,2094 @@
+[
+  {
+    "id": 5341,
+    "slug": "bia-12-ngan-day-5-mau",
+    "name_vi": "Bìa 12 Ngăn Dây 5 Màu",
+    "name_en": "Folder 12 Pocket String 5-color",
+    "category": "bia-12-ngan",
+    "categories": [
+      "bia-12-ngan"
+    ],
+    "price_min": 36540,
+    "price_max": 36540,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-12-ngan-day-5-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-12-ngan-day-5-mau-f2.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f3.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f4.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f5.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f6.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f7.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f8.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f9.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f10.jpg",
+      "img/products/bia-12-ngan-day-5-mau-f11.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 36540,
+    "price_regular": 39540
+  },
+  {
+    "id": 5344,
+    "slug": "bia-phan-trang-24-chu",
+    "name_vi": "Bìa Phân Trang 24 Chữ",
+    "name_en": "Folder Divider 24 Letters",
+    "category": "bia-phan-trang",
+    "categories": [
+      "bia-phan-trang"
+    ],
+    "price_min": 18760,
+    "price_max": 18760,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-phan-trang-24-chu-f1.jpg",
+    "gallery": [
+      "img/products/bia-phan-trang-24-chu-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 18760,
+    "price_regular": 20760
+  },
+  {
+    "id": 5347,
+    "slug": "cap-12-ngan-quai",
+    "name_vi": "Bìa Cặp 12 Ngăn Quai",
+    "name_en": "Folder Case 12 Pocket Handle",
+    "category": "bia-12-ngan",
+    "categories": [
+      "bia-12-ngan"
+    ],
+    "price_min": 37940,
+    "price_max": 37940,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/cap-12-ngan-quai-f1.jpg",
+    "gallery": [
+      "img/products/cap-12-ngan-quai-f2.jpg",
+      "img/products/cap-12-ngan-quai-f3.jpg",
+      "img/products/cap-12-ngan-quai-f4.jpg",
+      "img/products/cap-12-ngan-quai-f5.jpg",
+      "img/products/cap-12-ngan-quai-f6.jpg",
+      "img/products/cap-12-ngan-quai-f7.jpg",
+      "img/products/cap-12-ngan-quai-f8.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 37940,
+    "price_regular": 40500
+  },
+  {
+    "id": 5350,
+    "slug": "bia-phan-trang-vc-10-so",
+    "name_vi": "Bìa Phân Trang VC - 10 Số",
+    "name_en": "Folder Divider VC - 10 No.",
+    "category": "bia-phan-trang",
+    "categories": [
+      "bia-phan-trang"
+    ],
+    "price_min": 6720,
+    "price_max": 6720,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-phan-trang-vc-10-so-f1.jpg",
+    "gallery": [
+      "img/products/bia-phan-trang-vc-10-so-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 6720,
+    "price_regular": 7300
+  },
+  {
+    "id": 5353,
+    "slug": "bia-phan-trang-vc-12-so",
+    "name_vi": "Bìa Phân Trang VC - 12 Số",
+    "name_en": "Folder Divider VC - 12 No.",
+    "category": "bia-phan-trang",
+    "categories": [
+      "bia-phan-trang"
+    ],
+    "price_min": 8120,
+    "price_max": 8120,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-phan-trang-vc-12-so-f1.jpg",
+    "gallery": [
+      "img/products/bia-phan-trang-vc-12-so-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 8120,
+    "price_regular": 10000
+  },
+  {
+    "id": 5356,
+    "slug": "bia-cot-day-a4",
+    "name_vi": "Bìa Cột Dây A4",
+    "name_en": "Folder String-tie A4",
+    "category": "bia-nut",
+    "categories": [
+      "bia-nut"
+    ],
+    "price_min": 4400,
+    "price_max": 4400,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cot-day-a4-f1.jpg",
+    "gallery": [
+      "img/products/bia-cot-day-a4-f2.jpg",
+      "img/products/bia-cot-day-a4-f3.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 4400,
+    "price_regular": 5000
+  },
+  {
+    "id": 5359,
+    "slug": "bia-nut-f4-b-mong-vc-360b",
+    "name_vi": "Bìa Nút F4 (B) Mỏng Vc-360B",
+    "name_en": "Folder Snap F4 (b) Thin VC-360B",
+    "category": "bia-nut",
+    "categories": [
+      "bia-nut"
+    ],
+    "price_min": 2400,
+    "price_max": 2400,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5359.jpg",
+    "gallery": [
+      "img/products/p-5359-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 2400,
+    "price_regular": 2700
+  },
+  {
+    "id": 5362,
+    "slug": "bia-nut-f4-day-a-loai-1-vc-360",
+    "name_vi": "Bìa Nút F4 Dày (A) LoạI 1 (Vc-360)",
+    "name_en": "Folder Snap F4 Thick (a) Type 1 (VC-360)",
+    "category": "bia-nut",
+    "categories": [
+      "bia-nut"
+    ],
+    "price_min": 2600,
+    "price_max": 2600,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5362.jpg",
+    "gallery": [
+      "img/products/p-5362-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 2600,
+    "price_regular": 2900
+  },
+  {
+    "id": 5365,
+    "slug": "bia-nut-a4-my-clear-bag-vc-a4",
+    "name_vi": "Bìa Nút A4 My Clear Bag VC-A4",
+    "name_en": "Folder Snap A4 My Clear Bag VC-A4",
+    "category": "bia-nut",
+    "categories": [
+      "bia-nut"
+    ],
+    "price_min": 2400,
+    "price_max": 2400,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5365.jpg",
+    "gallery": [
+      "img/products/p-5365-g0.jpg",
+      "img/products/p-5365-g1.jpg",
+      "img/products/p-5365-g2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 2400,
+    "price_regular": 2600
+  },
+  {
+    "id": 5368,
+    "slug": "bia-accord-4-mau",
+    "name_vi": "Bìa Accord (4 Màu)",
+    "name_en": "Folder Accord (4 Color)",
+    "category": "bia-acco-bao-cao",
+    "categories": [
+      "bia-acco-bao-cao"
+    ],
+    "price_min": 4300,
+    "price_max": 4300,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-accord-4-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-accord-4-mau-f2.jpg",
+      "img/products/bia-accord-4-mau-f3.jpg",
+      "img/products/bia-accord-4-mau-f4.jpg",
+      "img/products/bia-accord-4-mau-f5.jpg",
+      "img/products/bia-accord-4-mau-f6.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 4300,
+    "price_regular": 4800
+  },
+  {
+    "id": 5371,
+    "slug": "bia-la-a4-5-mau",
+    "name_vi": "Bìa Lá A4 - 5 Màu",
+    "name_en": "Folder Sheet A4 - 5-color",
+    "category": "bia-la-nhieu-la",
+    "categories": [
+      "bia-la-nhieu-la"
+    ],
+    "price_min": 1500,
+    "price_max": 1500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-la-a4-5-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-la-a4-5-mau-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 1500,
+    "price_regular": 1700
+  },
+  {
+    "id": 5374,
+    "slug": "bia-la-f4-5-mau",
+    "name_vi": "Bìa Lá F4 - 5 Màu",
+    "name_en": "Folder Sheet F4 - 5-color",
+    "category": "bia-la-nhieu-la",
+    "categories": [
+      "bia-la-nhieu-la"
+    ],
+    "price_min": 1900,
+    "price_max": 1900,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-la-f4-5-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-la-f4-5-mau-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 1900,
+    "price_regular": 2000
+  },
+  {
+    "id": 5377,
+    "slug": "bia-cong-3-5f",
+    "name_vi": "Bìa Còng 3.5F - 5 Màu",
+    "name_en": "Folder Lever-Arch 3.5F - 5-color",
+    "category": "bia-cong",
+    "categories": [
+      "bia-cong"
+    ],
+    "price_min": 18500,
+    "price_max": 18500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cong-3-5f-f1.jpg",
+    "gallery": [
+      "img/products/bia-cong-3-5f-f2.jpg",
+      "img/products/bia-cong-3-5f-f3.jpg",
+      "img/products/bia-cong-3-5f-f4.jpg",
+      "img/products/bia-cong-3-5f-f5.jpg",
+      "img/products/bia-cong-3-5f-f6.jpg",
+      "img/products/bia-cong-3-5f-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 18500,
+    "price_regular": 20000
+  },
+  {
+    "id": 5380,
+    "slug": "bia-cong-2-5f",
+    "name_vi": "Bìa Còng 2.5F - Nhiều Màu",
+    "name_en": "Folder Lever-Arch 2.5F - Nhiều Color",
+    "category": "bia-cong",
+    "categories": [
+      "bia-cong"
+    ],
+    "price_min": 18000,
+    "price_max": 18000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cong-2-5f-f1.jpg",
+    "gallery": [
+      "img/products/bia-cong-2-5f-f2.jpg",
+      "img/products/bia-cong-2-5f-f3.jpg",
+      "img/products/bia-cong-2-5f-f4.jpg",
+      "img/products/bia-cong-2-5f-f5.jpg",
+      "img/products/bia-cong-2-5f-f6.jpg",
+      "img/products/bia-cong-2-5f-f7.jpg",
+      "img/products/bia-cong-2-5f-f8.jpg",
+      "img/products/bia-cong-2-5f-f9.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 18000,
+    "price_regular": 19000
+  },
+  {
+    "id": 5383,
+    "slug": "bia-trinh-ky-nhua-don-a4-5-mau",
+    "name_vi": "Bìa Trình Ký Nhựa Đơn Thước A4 (5 Màu)",
+    "name_en": "Folder Signature Plastic Single Ruler A4 ( 5-color )",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 15000,
+    "price_max": 15000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-trinh-ky-nhua-don-a4-5-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-trinh-ky-nhua-don-a4-5-mau-f2.jpg",
+      "img/products/bia-trinh-ky-nhua-don-a4-5-mau-f3.jpg",
+      "img/products/bia-trinh-ky-nhua-don-a4-5-mau-f4.jpg",
+      "img/products/bia-trinh-ky-nhua-don-a4-5-mau-f5.jpg",
+      "img/products/bia-trinh-ky-nhua-don-a4-5-mau-f6.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 15000,
+    "price_regular": 16000
+  },
+  {
+    "id": 5386,
+    "slug": "bia-trinh-ky-nhua-don-thuoc-tron-a5-5-mau",
+    "name_vi": "Bìa Trình Ký Nhựa Đơn A5 (5 Màu)",
+    "name_en": "Folder Signature Plastic Single A5 ( 5-color )",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 13050,
+    "price_max": 13050,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-trinh-ky-nhua-don-thuoc-tron-a5-5-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-trinh-ky-nhua-don-thuoc-tron-a5-5-mau-f2.jpg",
+      "img/products/bia-trinh-ky-nhua-don-thuoc-tron-a5-5-mau-f3.jpg",
+      "img/products/bia-trinh-ky-nhua-don-thuoc-tron-a5-5-mau-f4.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 13050,
+    "price_regular": 16500
+  },
+  {
+    "id": 5389,
+    "slug": "bia-trinh-ky-nhua-doi-a4",
+    "name_vi": "Bìa Trình Ký Nhựa Đôi A4",
+    "name_en": "Folder Signature Plastic Double A4",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 22000,
+    "price_max": 22000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-trinh-ky-nhua-doi-a4-f1.jpg",
+    "gallery": [
+      "img/products/bia-trinh-ky-nhua-doi-a4-f2.jpg",
+      "img/products/bia-trinh-ky-nhua-doi-a4-f3.jpg",
+      "img/products/bia-trinh-ky-nhua-doi-a4-f4.jpg",
+      "img/products/bia-trinh-ky-nhua-doi-a4-f5.jpg",
+      "img/products/bia-trinh-ky-nhua-doi-a4-f6.jpg",
+      "img/products/bia-trinh-ky-nhua-doi-a4-f7.jpg",
+      "img/products/bia-trinh-ky-nhua-doi-a4-f8.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 22000,
+    "price_regular": 24000
+  },
+  {
+    "id": 5392,
+    "slug": "bia-cay-q311",
+    "name_vi": "Bìa Cây Q311",
+    "name_en": "Folder Spine Q311",
+    "category": "bia-cay",
+    "categories": [
+      "bia-cay"
+    ],
+    "price_min": 4130,
+    "price_max": 4130,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cay-q311-f1.jpg",
+    "gallery": [
+      "img/products/bia-cay-q311-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 4130,
+    "price_regular": 4600
+  },
+  {
+    "id": 5395,
+    "slug": "bia-cay-q324",
+    "name_vi": "Bìa Cây Q324",
+    "name_en": "Folder Spine Q324",
+    "category": "bia-cay",
+    "categories": [
+      "bia-cay"
+    ],
+    "price_min": 3990,
+    "price_max": 3990,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cay-q324-f1.jpg",
+    "gallery": [
+      "img/products/bia-cay-q324-f2.jpg",
+      "img/products/bia-cay-q324-f3.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 3990,
+    "price_regular": 4500
+  },
+  {
+    "id": 5398,
+    "slug": "bia-la-a4-trang",
+    "name_vi": "Bìa Lá A4 - Trắng",
+    "name_en": "Folder Sheet A4 - Trắng",
+    "category": "bia-la-nhieu-la",
+    "categories": [
+      "bia-la-nhieu-la"
+    ],
+    "price_min": 1358,
+    "price_max": 1358,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5398.jpg",
+    "gallery": [
+      "img/products/p-5398-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 1358,
+    "price_regular": 1455
+  },
+  {
+    "id": 5401,
+    "slug": "bia-la-f4",
+    "name_vi": "Bìa Lá F4 Trắng",
+    "name_en": "Folder Sheet F4 Trắng",
+    "category": "bia-la-nhieu-la",
+    "categories": [
+      "bia-la-nhieu-la"
+    ],
+    "price_min": 1800,
+    "price_max": 1800,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5401.jpg",
+    "gallery": [
+      "img/products/p-5401-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 1800,
+    "price_regular": 1900
+  },
+  {
+    "id": 5404,
+    "slug": "bia-la-ep-goc-bao-thu",
+    "name_vi": "Bìa Lá Ép Góc (Bao Thư)",
+    "name_en": "Folder Sheet ép Góc (bao Thư)",
+    "category": "bia-la-nhieu-la",
+    "categories": [
+      "bia-la-nhieu-la"
+    ],
+    "price_min": 1999,
+    "price_max": 1999,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5404.jpg",
+    "gallery": [],
+    "featured": false,
+    "short_vi": "",
+    "price": 1999,
+    "price_regular": 2100
+  },
+  {
+    "id": 5407,
+    "slug": "bia-la-ep-3-goc",
+    "name_vi": "Bìa Lá Ép 3 Góc",
+    "name_en": "Folder Sheet ép 3 Góc",
+    "category": "bia-la-nhieu-la",
+    "categories": [
+      "bia-la-nhieu-la"
+    ],
+    "price_min": 1999,
+    "price_max": 1999,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5407.jpg",
+    "gallery": [],
+    "featured": false,
+    "short_vi": "",
+    "price": 1999,
+    "price_regular": 2100
+  },
+  {
+    "id": 5410,
+    "slug": "bia-cay-q310-gay-nho",
+    "name_vi": "Bìa Cây Q310 Gáy Nhỏ",
+    "name_en": "Folder Spine Q310 Spine Nhỏ",
+    "category": "bia-cay",
+    "categories": [
+      "bia-cay"
+    ],
+    "price_min": 2338,
+    "price_max": 2338,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cay-q310-gay-nho-f1.jpg",
+    "gallery": [
+      "img/products/bia-cay-q310-gay-nho-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 2338,
+    "price_regular": 5338
+  },
+  {
+    "id": 5413,
+    "slug": "bia-lo-300g",
+    "name_vi": "Bìa Lỗ 300G",
+    "name_en": "Folder Punched 300g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 26500,
+    "price_max": 26500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5413.jpg",
+    "gallery": [
+      "img/products/p-5413-g0.jpg",
+      "img/products/p-5413-g1.jpg",
+      "img/products/p-5413-g2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 26500,
+    "price_regular": 28000
+  },
+  {
+    "id": 5416,
+    "slug": "bia-lo-320g",
+    "name_vi": "Bìa Lỗ 320G",
+    "name_en": "Folder Punched 320g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 28000,
+    "price_max": 28000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5416.jpg",
+    "gallery": [
+      "img/products/p-5416-g0.jpg",
+      "img/products/p-5416-g1.jpg",
+      "img/products/p-5416-g2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 28000,
+    "price_regular": 30000
+  },
+  {
+    "id": 5419,
+    "slug": "bia-lo-380g",
+    "name_vi": "Bìa Lỗ 380G",
+    "name_en": "Folder Punched 380g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 32500,
+    "price_max": 32500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5419.jpg",
+    "gallery": [
+      "img/products/p-5419-g0.jpg",
+      "img/products/p-5419-g1.jpg",
+      "img/products/p-5419-g2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 32500,
+    "price_regular": 35000
+  },
+  {
+    "id": 5422,
+    "slug": "bia-lo-400g",
+    "name_vi": "Bìa Lỗ 400G",
+    "name_en": "Folder Punched 400g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 33000,
+    "price_max": 33000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-lo-400g-f1.jpg",
+    "gallery": [
+      "img/products/bia-lo-400g-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 33000,
+    "price_regular": 36000
+  },
+  {
+    "id": 5425,
+    "slug": "bia-lo-420g",
+    "name_vi": "Bìa Lỗ 420G",
+    "name_en": "Folder Punched 420g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 36000,
+    "price_max": 36000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5425.jpg",
+    "gallery": [
+      "img/products/p-5425-g0.jpg",
+      "img/products/p-5425-g1.jpg",
+      "img/products/p-5425-g2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 36000,
+    "price_regular": 38000
+  },
+  {
+    "id": 5428,
+    "slug": "bia-lo-460g",
+    "name_vi": "Bìa Lỗ 460G",
+    "name_en": "Folder Punched 460g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 39990,
+    "price_max": 39990,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5428.jpg",
+    "gallery": [
+      "img/products/p-5428-g0.jpg",
+      "img/products/p-5428-g1.jpg",
+      "img/products/p-5428-g2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 39990,
+    "price_regular": 42500
+  },
+  {
+    "id": 5431,
+    "slug": "bia-lo-500g",
+    "name_vi": "Bìa Lỗ 500G",
+    "name_en": "Folder Punched 500g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 44500,
+    "price_max": 44500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-lo-500g-f1.jpg",
+    "gallery": [
+      "img/products/bia-lo-500g-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 44500,
+    "price_regular": 47500
+  },
+  {
+    "id": 5434,
+    "slug": "bia-lo-600g",
+    "name_vi": "Bìa Lỗ 600G",
+    "name_en": "Folder Punched 600g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 49990,
+    "price_max": 49990,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5434.jpg",
+    "gallery": [
+      "img/products/p-5434-g0.jpg",
+      "img/products/p-5434-g1.jpg",
+      "img/products/p-5434-g2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 49990,
+    "price_regular": 53500
+  },
+  {
+    "id": 5437,
+    "slug": "bia-lo-700g",
+    "name_vi": "Bìa Lỗ 700G",
+    "name_en": "Folder Punched 700g",
+    "category": "bia-lo",
+    "categories": [
+      "bia-lo"
+    ],
+    "price_min": 61000,
+    "price_max": 61000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5437.jpg",
+    "gallery": [
+      "img/products/p-5437-g0.jpg",
+      "img/products/p-5437-g1.jpg",
+      "img/products/p-5437-g2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 61000,
+    "price_regular": 65000
+  },
+  {
+    "id": 5440,
+    "slug": "bia-cay-q310-gay-lon-day",
+    "name_vi": "Bìa Cây Q310 Gáy Lớn Dày",
+    "name_en": "Folder Spine Q310 Spine Lớn Thick",
+    "category": "bia-cay",
+    "categories": [
+      "bia-cay"
+    ],
+    "price_min": 3290,
+    "price_max": 3290,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5440.jpg",
+    "gallery": [
+      "img/products/p-5440-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 3290,
+    "price_regular": 5290
+  },
+  {
+    "id": 5443,
+    "slug": "bia-cong-2-5f-b",
+    "name_vi": "Bìa Còng 2.5F - B - 1 Màu",
+    "name_en": "Folder Lever-Arch 2.5F - b - 1 Color",
+    "category": "bia-cong",
+    "categories": [
+      "bia-cong"
+    ],
+    "price_min": 13500,
+    "price_max": 13500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5443.png",
+    "gallery": [
+      "img/products/p-5443-g0.png"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 13500,
+    "price_regular": 14500
+  },
+  {
+    "id": 5446,
+    "slug": "bia-phan-trang-vc-31-so",
+    "name_vi": "Bìa Phân Trang VC - 31 Số",
+    "name_en": "Folder Divider VC - 31 No.",
+    "category": "bia-phan-trang",
+    "categories": [
+      "bia-phan-trang"
+    ],
+    "price_min": 24360,
+    "price_max": 24360,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-phan-trang-vc-31-so-f1.jpg",
+    "gallery": [
+      "img/products/bia-phan-trang-vc-31-so-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 24360,
+    "price_regular": 27360
+  },
+  {
+    "id": 5449,
+    "slug": "bia-hop-khoa-tu-5f",
+    "name_vi": "Bìa Hộp Khóa Từ 5F",
+    "name_en": "Folder Box Khóa Từ 5F",
+    "category": "bia-hop",
+    "categories": [
+      "bia-hop"
+    ],
+    "price_min": 58940,
+    "price_max": 58940,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-hop-khoa-tu-5f-f1.jpg",
+    "gallery": [
+      "img/products/bia-hop-khoa-tu-5f-f2.jpg",
+      "img/products/bia-hop-khoa-tu-5f-f3.jpg",
+      "img/products/bia-hop-khoa-tu-5f-f4.jpg",
+      "img/products/bia-hop-khoa-tu-5f-f5.jpg",
+      "img/products/bia-hop-khoa-tu-5f-f6.jpg",
+      "img/products/bia-hop-khoa-tu-5f-f7.jpg",
+      "img/products/bia-hop-khoa-tu-5f-f8.jpg",
+      "img/products/bia-hop-khoa-tu-5f-f9.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 58940,
+    "price_regular": 62940
+  },
+  {
+    "id": 5452,
+    "slug": "bia-12-ngan-5-mau-co-nut",
+    "name_vi": "Bìa 12 Ngăn 5 Màu Có Nút",
+    "name_en": "Folder 12 Pocket 5-color Có Snap",
+    "category": "bia-12-ngan",
+    "categories": [
+      "bia-12-ngan"
+    ],
+    "price_min": 37240,
+    "price_max": 37240,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5452.jpg",
+    "gallery": [
+      "img/products/p-5452-g0.jpg",
+      "img/products/p-5452-g1.jpg",
+      "img/products/p-5452-g2.jpg",
+      "img/products/p-5452-g3.jpg",
+      "img/products/p-5452-g4.jpg",
+      "img/products/p-5452-g5.jpg",
+      "img/products/p-5452-g6.jpg",
+      "img/products/p-5452-g7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 37240,
+    "price_regular": 40240
+  },
+  {
+    "id": 5455,
+    "slug": "bia-hop-file-box",
+    "name_vi": "Bìa Hộp File Box 5.5F",
+    "name_en": "Folder Box File Box 5.5F",
+    "category": "bia-hop",
+    "categories": [
+      "bia-hop"
+    ],
+    "price_min": 35140,
+    "price_max": 35140,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5455.jpg",
+    "gallery": [
+      "img/products/p-5455-g0.jpg",
+      "img/products/p-5455-g1.jpg",
+      "img/products/p-5455-g2.jpg",
+      "img/products/p-5455-g3.jpg",
+      "img/products/p-5455-g4.jpg",
+      "img/products/p-5455-g5.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 35140,
+    "price_regular": 39140
+  },
+  {
+    "id": 5458,
+    "slug": "bia-hop-nhua-1-ngan-2-nut",
+    "name_vi": "Bìa Hộp Nhựa 1 Ngăn (2 Nút)",
+    "name_en": "Folder Box Plastic 1 Pocket (2 Snap)",
+    "category": "bia-hop",
+    "categories": [
+      "bia-hop"
+    ],
+    "price_min": 31640,
+    "price_max": 31640,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5458.jpg",
+    "gallery": [
+      "img/products/p-5458-g0.jpg",
+      "img/products/p-5458-g1.jpg",
+      "img/products/p-5458-g2.jpg",
+      "img/products/p-5458-g3.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 31640,
+    "price_regular": 35640
+  },
+  {
+    "id": 5461,
+    "slug": "bia-hop-nhua-quai",
+    "name_vi": "Bìa Hộp (Nhựa) Quai",
+    "name_en": "Folder Box (Plastic) Handle",
+    "category": "bia-hop",
+    "categories": [
+      "bia-hop"
+    ],
+    "price_min": 31640,
+    "price_max": 31640,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5461.jpg",
+    "gallery": [
+      "img/products/p-5461-g0.jpg",
+      "img/products/p-5461-g1.jpg",
+      "img/products/p-5461-g2.jpg",
+      "img/products/p-5461-g3.jpg",
+      "img/products/p-5461-g4.jpg",
+      "img/products/p-5461-g5.jpg",
+      "img/products/p-5461-g6.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 31640,
+    "price_regular": 35640
+  },
+  {
+    "id": 5464,
+    "slug": "bia-trinh-ky-da-don-loai-b",
+    "name_vi": "Bìa Trình Ký Da Đơn - LoạI B",
+    "name_en": "Folder Signature Leather Single - Type b",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 16500,
+    "price_max": 16500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5464.jpg",
+    "gallery": [
+      "img/products/p-5464-g0.jpg",
+      "img/products/p-5464-g1.jpg",
+      "img/products/p-5464-g2.jpg",
+      "img/products/p-5464-g3.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 16500,
+    "price_regular": 17500
+  },
+  {
+    "id": 5467,
+    "slug": "bia-trinh-ky-da-don-loai-a",
+    "name_vi": "Bìa Trình Ký Da Đơn - LoạI A",
+    "name_en": "Folder Signature Leather Single - Type a",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 19000,
+    "price_max": 19000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5467.jpg",
+    "gallery": [
+      "img/products/p-5467-g0.jpg",
+      "img/products/p-5467-g1.jpg",
+      "img/products/p-5467-g2.jpg",
+      "img/products/p-5467-g3.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 19000,
+    "price_regular": 21000
+  },
+  {
+    "id": 5476,
+    "slug": "bia-trinh-ky-doi-da-cao-cap",
+    "name_vi": "Bìa Trình Ký Đôi Da Cao Cấp",
+    "name_en": "Folder Signature Double Leather Cao Cấp",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 35000,
+    "price_max": 35000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5476.jpg",
+    "gallery": [
+      "img/products/p-5476-g0.jpg",
+      "img/products/p-5476-g1.jpg",
+      "img/products/p-5476-g2.jpg",
+      "img/products/p-5476-g3.jpg",
+      "img/products/p-5476-g4.jpg",
+      "img/products/p-5476-g5.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 35000,
+    "price_regular": 37500
+  },
+  {
+    "id": 5482,
+    "slug": "bia-01-lo-xo-duc-l1-a4",
+    "name_vi": "Bìa 01 Lò Xo Đục L1 A4",
+    "name_en": "Folder 01 Ring Frosted L1 A4",
+    "category": "bia-kep",
+    "categories": [
+      "bia-kep"
+    ],
+    "price_min": 14140,
+    "price_max": 14140,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5482.jpg",
+    "gallery": [
+      "img/products/p-5482-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 14140,
+    "price_regular": 16140
+  },
+  {
+    "id": 5485,
+    "slug": "bia-02-lo-xo-duc-l1-a4",
+    "name_vi": "Bìa 02 Lò Xo Đục L1 A4",
+    "name_en": "Folder 02 Ring Frosted L1 A4",
+    "category": "bia-kep",
+    "categories": [
+      "bia-kep"
+    ],
+    "price_min": 15540,
+    "price_max": 15540,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5485.jpg",
+    "gallery": [
+      "img/products/p-5485-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 15540,
+    "price_regular": 18540
+  },
+  {
+    "id": 5747,
+    "slug": "bia-12-ngan-day-thun",
+    "name_vi": "Bìa 12 Ngăn Dây Thun",
+    "name_en": "Folder 12 Pocket Elastic",
+    "category": "bia-12-ngan",
+    "categories": [
+      "bia-12-ngan"
+    ],
+    "price_min": 36540,
+    "price_max": 36540,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5747.jpg",
+    "gallery": [
+      "img/products/p-5747-g0.jpg",
+      "img/products/p-5747-g1.jpg",
+      "img/products/p-5747-g2.jpg",
+      "img/products/p-5747-g3.jpg",
+      "img/products/p-5747-g4.jpg",
+      "img/products/p-5747-g5.jpg",
+      "img/products/p-5747-g6.jpg",
+      "img/products/p-5747-g7.jpg",
+      "img/products/p-5747-g8.jpg",
+      "img/products/p-5747-g9.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 36540,
+    "price_regular": 39540
+  },
+  {
+    "id": 5760,
+    "slug": "bia-cay-q310-gay-lon",
+    "name_vi": "Bìa Cây Q310 Gáy Lớn",
+    "name_en": "Folder Spine Q310 Spine Lớn",
+    "category": "bia-cay",
+    "categories": [
+      "bia-cay"
+    ],
+    "price_min": 3038,
+    "price_max": 3038,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cay-q310-gay-lon-f1.jpg",
+    "gallery": [
+      "img/products/bia-cay-q310-gay-lon-f2.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 3038,
+    "price_regular": 3500
+  },
+  {
+    "id": 5845,
+    "slug": "bia-cong-3-5f-b",
+    "name_vi": "Bìa Còng 3.5F - B - 1 Màu",
+    "name_en": "Folder Lever-Arch 3.5F - b - 1 Color",
+    "category": "bia-cong",
+    "categories": [
+      "bia-cong"
+    ],
+    "price_min": 15000,
+    "price_max": 15000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cong-3-5f-b-f1.jpg",
+    "gallery": [
+      "img/products/bia-cong-3-5f-b-f2.jpg",
+      "img/products/bia-cong-3-5f-b-f3.jpg",
+      "img/products/bia-cong-3-5f-b-f4.jpg",
+      "img/products/bia-cong-3-5f-b-f5.jpg",
+      "img/products/bia-cong-3-5f-b-f6.jpg",
+      "img/products/bia-cong-3-5f-b-f7.jpg",
+      "img/products/bia-cong-3-5f-b-f8.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 15000,
+    "price_regular": 16000
+  },
+  {
+    "id": 5851,
+    "slug": "bia-cong-3-5f-si-thai",
+    "name_vi": "Bìa Còng 3.5F Simili - Thái",
+    "name_en": "Folder Lever-Arch 3.5F Simili - Thái",
+    "category": "bia-cong",
+    "categories": [
+      "bia-cong"
+    ],
+    "price_min": 23500,
+    "price_max": 23500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cong-3-5f-si-thai-f1.jpg",
+    "gallery": [
+      "img/products/bia-cong-3-5f-si-thai-f2.jpg",
+      "img/products/bia-cong-3-5f-si-thai-f3.jpg",
+      "img/products/bia-cong-3-5f-si-thai-f4.jpg",
+      "img/products/bia-cong-3-5f-si-thai-f5.jpg",
+      "img/products/bia-cong-3-5f-si-thai-f6.jpg",
+      "img/products/bia-cong-3-5f-si-thai-f7.jpg",
+      "img/products/bia-cong-3-5f-si-thai-f8.jpg",
+      "img/products/bia-cong-3-5f-si-thai-f9.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 23500,
+    "price_regular": 25000
+  },
+  {
+    "id": 5854,
+    "slug": "bia-cong-5f-7f-thai-2-mat-si",
+    "name_vi": "Bìa Còng 5F (2 Mặt Si)",
+    "name_en": "Folder Lever-Arch 5F (2 Mặt Si)",
+    "category": "bia-cong",
+    "categories": [
+      "bia-cong"
+    ],
+    "price_min": 31000,
+    "price_max": 31000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cong-5f-7f-thai-2-mat-si-f1.jpg",
+    "gallery": [
+      "img/products/bia-cong-5f-7f-thai-2-mat-si-f2.jpg",
+      "img/products/bia-cong-5f-7f-thai-2-mat-si-f3.jpg",
+      "img/products/bia-cong-5f-7f-thai-2-mat-si-f4.jpg",
+      "img/products/bia-cong-5f-7f-thai-2-mat-si-f5.jpg",
+      "img/products/bia-cong-5f-7f-thai-2-mat-si-f6.jpg",
+      "img/products/bia-cong-5f-7f-thai-2-mat-si-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 31000,
+    "price_regular": 33000
+  },
+  {
+    "id": 5860,
+    "slug": "bia-cong-9f-l1-2-mat-si",
+    "name_vi": "Bìa Còng 9F L1 (2 Mặt Si)",
+    "name_en": "Folder Lever-Arch 9F L1 (2 Mặt Si)",
+    "category": "bia-cong",
+    "categories": [
+      "bia-cong"
+    ],
+    "price_min": 49000,
+    "price_max": 49000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cong-9f-l1-2-mat-si-f1.jpg",
+    "gallery": [
+      "img/products/bia-cong-9f-l1-2-mat-si-f2.jpg",
+      "img/products/bia-cong-9f-l1-2-mat-si-f3.jpg",
+      "img/products/bia-cong-9f-l1-2-mat-si-f4.jpg",
+      "img/products/bia-cong-9f-l1-2-mat-si-f5.jpg",
+      "img/products/bia-cong-9f-l1-2-mat-si-f6.jpg",
+      "img/products/bia-cong-9f-l1-2-mat-si-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 49000,
+    "price_regular": 52500
+  },
+  {
+    "id": 5866,
+    "slug": "bia-10-la-loai-b",
+    "name_vi": "Bìa 10 Lá - LoạI B",
+    "name_en": "Folder 10 Sheet - Type b",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 13000,
+    "price_max": 13000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5866.jpg",
+    "gallery": [
+      "img/products/p-5866-g0.jpg",
+      "img/products/p-5866-g1.jpg",
+      "img/products/p-5866-g2.jpg",
+      "img/products/p-5866-g3.jpg",
+      "img/products/p-5866-g4.jpg",
+      "img/products/p-5866-g5.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 13000,
+    "price_regular": 14000
+  },
+  {
+    "id": 5869,
+    "slug": "bia-20-la-loai-b",
+    "name_vi": "Bìa 20 Lá - LoạI B",
+    "name_en": "Folder 20 Sheet - Type b",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 16000,
+    "price_max": 16000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-20-la-loai-b-f1.jpg",
+    "gallery": [
+      "img/products/bia-20-la-loai-b-f2.jpg",
+      "img/products/bia-20-la-loai-b-f3.jpg",
+      "img/products/bia-20-la-loai-b-f4.jpg",
+      "img/products/bia-20-la-loai-b-f5.jpg",
+      "img/products/bia-20-la-loai-b-f6.jpg",
+      "img/products/bia-20-la-loai-b-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 16000,
+    "price_regular": 17000
+  },
+  {
+    "id": 5872,
+    "slug": "bia-30-la-loai-b",
+    "name_vi": "Bìa 30 Lá - LoạI B",
+    "name_en": "Folder 30 Sheet - Type b",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 18500,
+    "price_max": 18500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5872.jpg",
+    "gallery": [
+      "img/products/p-5872-g0.jpg",
+      "img/products/p-5872-g1.jpg",
+      "img/products/p-5872-g2.jpg",
+      "img/products/p-5872-g3.jpg",
+      "img/products/p-5872-g4.jpg",
+      "img/products/p-5872-g5.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 18500,
+    "price_regular": 20000
+  },
+  {
+    "id": 5875,
+    "slug": "bia-40-la-loai-b",
+    "name_vi": "Bìa 40 Lá - LoạI B",
+    "name_en": "Folder 40 Sheet - Type b",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 22540,
+    "price_max": 22540,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-40-la-loai-b-f1.jpg",
+    "gallery": [
+      "img/products/bia-40-la-loai-b-f2.jpg",
+      "img/products/bia-40-la-loai-b-f3.jpg",
+      "img/products/bia-40-la-loai-b-f4.jpg",
+      "img/products/bia-40-la-loai-b-f5.jpg",
+      "img/products/bia-40-la-loai-b-f6.jpg",
+      "img/products/bia-40-la-loai-b-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 22540,
+    "price_regular": 25540
+  },
+  {
+    "id": 5878,
+    "slug": "bia-60-la-loai-b",
+    "name_vi": "Bìa 60 Lá - LoạI B",
+    "name_en": "Folder 60 Sheet - Type b",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 27500,
+    "price_max": 27500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-60-la-loai-b-f1.jpg",
+    "gallery": [
+      "img/products/bia-60-la-loai-b-f2.jpg",
+      "img/products/bia-60-la-loai-b-f3.jpg",
+      "img/products/bia-60-la-loai-b-f4.jpg",
+      "img/products/bia-60-la-loai-b-f5.jpg",
+      "img/products/bia-60-la-loai-b-f6.jpg",
+      "img/products/bia-60-la-loai-b-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 27500,
+    "price_regular": 29000
+  },
+  {
+    "id": 5881,
+    "slug": "bia-80-la-loai-b",
+    "name_vi": "Bìa 80 Lá - LoạI B",
+    "name_en": "Folder 80 Sheet - Type b",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 33500,
+    "price_max": 33500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-80-la-loai-b-f1.jpg",
+    "gallery": [
+      "img/products/bia-80-la-loai-b-f2.jpg",
+      "img/products/bia-80-la-loai-b-f3.jpg",
+      "img/products/bia-80-la-loai-b-f4.jpg",
+      "img/products/bia-80-la-loai-b-f5.jpg",
+      "img/products/bia-80-la-loai-b-f6.jpg",
+      "img/products/bia-80-la-loai-b-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 33500,
+    "price_regular": 36000
+  },
+  {
+    "id": 5884,
+    "slug": "bia-100-la-loai-b",
+    "name_vi": "Bìa 100 Lá - LoạI B",
+    "name_en": "Folder 100 Sheet - Type b",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 40000,
+    "price_max": 40000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-100-la-loai-b-f1.jpg",
+    "gallery": [
+      "img/products/bia-100-la-loai-b-f2.jpg",
+      "img/products/bia-100-la-loai-b-f3.jpg",
+      "img/products/bia-100-la-loai-b-f4.jpg",
+      "img/products/bia-100-la-loai-b-f5.jpg",
+      "img/products/bia-100-la-loai-b-f6.jpg",
+      "img/products/bia-100-la-loai-b-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 40000,
+    "price_regular": 42000
+  },
+  {
+    "id": 5887,
+    "slug": "bia-10-la-5-mau",
+    "name_vi": "Bìa 10 Lá (5 Màu)",
+    "name_en": "Folder 10 Sheet ( 5-color )",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 14000,
+    "price_max": 14000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5887.jpg",
+    "gallery": [
+      "img/products/p-5887-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 14000,
+    "price_regular": 15000
+  },
+  {
+    "id": 5890,
+    "slug": "bia-20-la-5-mau",
+    "name_vi": "Bìa 20 Lá (5 Màu)",
+    "name_en": "Folder 20 Sheet ( 5-color )",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 16500,
+    "price_max": 16500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5890.jpg",
+    "gallery": [
+      "img/products/p-5890-g0.jpg",
+      "img/products/p-5890-g1.jpg",
+      "img/products/p-5890-g2.jpg",
+      "img/products/p-5890-g3.jpg",
+      "img/products/p-5890-g4.jpg",
+      "img/products/p-5890-g5.jpg",
+      "img/products/p-5890-g6.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 16500,
+    "price_regular": 17500
+  },
+  {
+    "id": 5893,
+    "slug": "bia-30-la-5-mau",
+    "name_vi": "Bìa 30 Lá (5 Màu)",
+    "name_en": "Folder 30 Sheet ( 5-color )",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 20000,
+    "price_max": 20000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5893.jpg",
+    "gallery": [
+      "img/products/p-5893-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 20000,
+    "price_regular": 21500
+  },
+  {
+    "id": 5896,
+    "slug": "bia-40-la-5-mau",
+    "name_vi": "Bìa 40 Lá (5 Màu)",
+    "name_en": "Folder 40 Sheet ( 5-color )",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 23500,
+    "price_max": 23500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5896.jpg",
+    "gallery": [
+      "img/products/p-5896-g0.jpg",
+      "img/products/p-5896-g1.jpg",
+      "img/products/p-5896-g2.jpg",
+      "img/products/p-5896-g3.jpg",
+      "img/products/p-5896-g4.jpg",
+      "img/products/p-5896-g5.jpg",
+      "img/products/p-5896-g6.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 23500,
+    "price_regular": 25000
+  },
+  {
+    "id": 5899,
+    "slug": "bia-60-la-5-mau",
+    "name_vi": "Bìa 60 Lá (5 Màu)",
+    "name_en": "Folder 60 Sheet ( 5-color )",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 31000,
+    "price_max": 31000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5899.jpg",
+    "gallery": [
+      "img/products/p-5899-g0.jpg",
+      "img/products/p-5899-g1.jpg",
+      "img/products/p-5899-g2.jpg",
+      "img/products/p-5899-g3.jpg",
+      "img/products/p-5899-g4.jpg",
+      "img/products/p-5899-g5.jpg",
+      "img/products/p-5899-g6.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 31000,
+    "price_regular": 33000
+  },
+  {
+    "id": 5902,
+    "slug": "bia-80-la-5-mau",
+    "name_vi": "Bìa 80 Lá (5 Màu)",
+    "name_en": "Folder 80 Sheet ( 5-color )",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 41000,
+    "price_max": 41000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-5902.jpg",
+    "gallery": [
+      "img/products/p-5902-g0.jpg",
+      "img/products/p-5902-g1.jpg",
+      "img/products/p-5902-g2.jpg",
+      "img/products/p-5902-g3.jpg",
+      "img/products/p-5902-g4.jpg",
+      "img/products/p-5902-g5.jpg",
+      "img/products/p-5902-g6.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 41000,
+    "price_regular": 43500
+  },
+  {
+    "id": 5905,
+    "slug": "bia-100-la",
+    "name_vi": "Bìa 100 Lá - Trong",
+    "name_en": "Folder 100 Sheet - Clear",
+    "category": "bia-album",
+    "categories": [
+      "bia-album"
+    ],
+    "price_min": 48000,
+    "price_max": 48000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-100-la-f1.jpg",
+    "gallery": [
+      "img/products/bia-100-la-f2.jpg",
+      "img/products/bia-100-la-f3.jpg",
+      "img/products/bia-100-la-f4.jpg",
+      "img/products/bia-100-la-f5.jpg",
+      "img/products/bia-100-la-f6.jpg",
+      "img/products/bia-100-la-f7.jpg",
+      "img/products/bia-100-la-f8.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 48000,
+    "price_regular": 51000
+  },
+  {
+    "id": 6027,
+    "slug": "bia-cong-7f-2-mat-si",
+    "name_vi": "Bìa Còng 7F (2 Mặt Si)",
+    "name_en": "Folder Lever-Arch 7F (2 Mặt Si)",
+    "category": "bia-cong",
+    "categories": [
+      "bia-cong"
+    ],
+    "price_min": 31000,
+    "price_max": 31000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cong-7f-2-mat-si-f1.jpg",
+    "gallery": [
+      "img/products/bia-cong-7f-2-mat-si-f2.jpg",
+      "img/products/bia-cong-7f-2-mat-si-f3.jpg",
+      "img/products/bia-cong-7f-2-mat-si-f4.jpg",
+      "img/products/bia-cong-7f-2-mat-si-f5.jpg",
+      "img/products/bia-cong-7f-2-mat-si-f6.jpg",
+      "img/products/bia-cong-7f-2-mat-si-f7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 31000,
+    "price_regular": 33000
+  },
+  {
+    "id": 6096,
+    "slug": "bia-02-kep-duc-l1-a4",
+    "name_vi": "Bìa 02 Kẹp Đục L1 A4",
+    "name_en": "Folder 02 Clip Frosted L1 A4",
+    "category": "bia-kep",
+    "categories": [
+      "bia-kep"
+    ],
+    "price_min": 15540,
+    "price_max": 15540,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-6096.jpg",
+    "gallery": [
+      "img/products/p-6096-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 15540,
+    "price_regular": 18540
+  },
+  {
+    "id": 6099,
+    "slug": "bia-01-kep-5-mau",
+    "name_vi": "Bìa 01 Kẹp 5 Màu",
+    "name_en": "Folder 01 Clip 5-color",
+    "category": "bia-kep",
+    "categories": [
+      "bia-kep"
+    ],
+    "price_min": 16400,
+    "price_max": 16400,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-01-kep-5-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-01-kep-5-mau-f2.jpg",
+      "img/products/bia-01-kep-5-mau-f3.jpg",
+      "img/products/bia-01-kep-5-mau-f4.jpg",
+      "img/products/bia-01-kep-5-mau-f5.jpg",
+      "img/products/bia-01-kep-5-mau-f6.jpg",
+      "img/products/bia-01-kep-5-mau-f7.jpg",
+      "img/products/bia-01-kep-5-mau-f8.jpg",
+      "img/products/bia-01-kep-5-mau-f9.jpg",
+      "img/products/bia-01-kep-5-mau-f10.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 16400,
+    "price_regular": 18940
+  },
+  {
+    "id": 6102,
+    "slug": "bia-2-kep-5m",
+    "name_vi": "Bìa 2 Kẹp 5 Màu",
+    "name_en": "Folder 2 Clip 5-color",
+    "category": "bia-kep",
+    "categories": [
+      "bia-kep"
+    ],
+    "price_min": 18340,
+    "price_max": 18340,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-2-kep-5m-f1.jpg",
+    "gallery": [
+      "img/products/bia-2-kep-5m-f2.jpg",
+      "img/products/bia-2-kep-5m-f3.jpg",
+      "img/products/bia-2-kep-5m-f4.jpg",
+      "img/products/bia-2-kep-5m-f5.jpg",
+      "img/products/bia-2-kep-5m-f6.jpg",
+      "img/products/bia-2-kep-5m-f7.jpg",
+      "img/products/bia-2-kep-5m-f8.jpg",
+      "img/products/bia-2-kep-5m-f9.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 18340,
+    "price_regular": 21340
+  },
+  {
+    "id": 6105,
+    "slug": "bia-2-lo-xo-trong-co-file",
+    "name_vi": "Bìa 2 Lò Xo Trong Có File",
+    "name_en": "Folder 2 Ring Clear With File",
+    "category": "bia-kep",
+    "categories": [
+      "bia-kep"
+    ],
+    "price_min": 16500,
+    "price_max": 16500,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-6105.jpg",
+    "gallery": [],
+    "featured": false,
+    "short_vi": "",
+    "price": 16500,
+    "price_regular": 18500
+  },
+  {
+    "id": 6108,
+    "slug": "bia-1-lo-xo-5-mau",
+    "name_vi": "Bìa 1 Lò Xo 5 Màu",
+    "name_en": "Folder 1 Ring 5-color",
+    "category": "bia-kep",
+    "categories": [
+      "bia-kep"
+    ],
+    "price_min": 16940,
+    "price_max": 16940,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-1-lo-xo-5-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-1-lo-xo-5-mau-f2.jpg",
+      "img/products/bia-1-lo-xo-5-mau-f3.jpg",
+      "img/products/bia-1-lo-xo-5-mau-f4.jpg",
+      "img/products/bia-1-lo-xo-5-mau-f5.jpg",
+      "img/products/bia-1-lo-xo-5-mau-f6.jpg",
+      "img/products/bia-1-lo-xo-5-mau-f7.jpg",
+      "img/products/bia-1-lo-xo-5-mau-f8.jpg",
+      "img/products/bia-1-lo-xo-5-mau-f9.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 16940,
+    "price_regular": 18940
+  },
+  {
+    "id": 6111,
+    "slug": "bia-2-lo-xo-5m",
+    "name_vi": "Bìa 2 Lò Xo 5 Màu",
+    "name_en": "Folder 2 Ring 5-color",
+    "category": "bia-kep",
+    "categories": [
+      "bia-kep"
+    ],
+    "price_min": 18340,
+    "price_max": 18340,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-2-lo-xo-5m-f1.jpg",
+    "gallery": [
+      "img/products/bia-2-lo-xo-5m-f2.jpg",
+      "img/products/bia-2-lo-xo-5m-f3.jpg",
+      "img/products/bia-2-lo-xo-5m-f4.jpg",
+      "img/products/bia-2-lo-xo-5m-f5.jpg",
+      "img/products/bia-2-lo-xo-5m-f6.jpg",
+      "img/products/bia-2-lo-xo-5m-f7.jpg",
+      "img/products/bia-2-lo-xo-5m-f8.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 18340,
+    "price_regular": 21340
+  },
+  {
+    "id": 6114,
+    "slug": "bia-cot-day-f4",
+    "name_vi": "Bìa Cột Dây F4",
+    "name_en": "Folder String-tie F4",
+    "category": "bia-nut",
+    "categories": [
+      "bia-nut"
+    ],
+    "price_min": 4700,
+    "price_max": 4700,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-cot-day-f4-f1.jpg",
+    "gallery": [
+      "img/products/bia-cot-day-f4-f2.jpg",
+      "img/products/bia-cot-day-f4-f3.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 4700,
+    "price_regular": 5000
+  },
+  {
+    "id": 6117,
+    "slug": "bia-kiem-tra-a5-khong-in-tron",
+    "name_vi": "Bìa Kiểm Tra A5 Không In (Trơn)",
+    "name_en": "Folder Inspection A5 Unprinted (Plain)",
+    "category": "bia-nut",
+    "categories": [
+      "bia-nut"
+    ],
+    "price_min": 1700,
+    "price_max": 1700,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-6117.jpg",
+    "gallery": [
+      "img/products/p-6117-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 1700,
+    "price_regular": 1900
+  },
+  {
+    "id": 6120,
+    "slug": "bia-trinh-ky-da-doi-loai-b",
+    "name_vi": "Bìa Trình Ký Da Đôi - LoạI B",
+    "name_en": "Folder Signature Leather Double - Type b",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 25000,
+    "price_max": 25000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-6120.jpg",
+    "gallery": [
+      "img/products/p-6120-g0.jpg",
+      "img/products/p-6120-g1.jpg",
+      "img/products/p-6120-g2.jpg",
+      "img/products/p-6120-g3.jpg",
+      "img/products/p-6120-g4.jpg",
+      "img/products/p-6120-g5.jpg",
+      "img/products/p-6120-g6.jpg",
+      "img/products/p-6120-g7.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 25000,
+    "price_regular": 27000
+  },
+  {
+    "id": 6123,
+    "slug": "bia-trinh-ky-da-doi-loai-a",
+    "name_vi": "Bìa Trình Ký Da Đôi - LoạI A",
+    "name_en": "Folder Signature Leather Double - Type a",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 29000,
+    "price_max": 29000,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-6123.jpg",
+    "gallery": [
+      "img/products/p-6123-g0.jpg",
+      "img/products/p-6123-g1.jpg",
+      "img/products/p-6123-g2.jpg",
+      "img/products/p-6123-g3.jpg",
+      "img/products/p-6123-g4.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 29000,
+    "price_regular": 31000
+  },
+  {
+    "id": 6126,
+    "slug": "bia-kiem-tra-a5-co-in",
+    "name_vi": "Bìa Kiểm Tra A5 (Có In)",
+    "name_en": "Folder Inspection A5 ( Printed )",
+    "category": "bia-nut",
+    "categories": [
+      "bia-nut"
+    ],
+    "price_min": 1700,
+    "price_max": 1700,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-kiem-tra-a5-co-in-f1.jpg",
+    "gallery": [
+      "img/products/bia-kiem-tra-a5-co-in-f2.jpg",
+      "img/products/bia-kiem-tra-a5-co-in-f3.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 1700,
+    "price_regular": 1900
+  },
+  {
+    "id": 6129,
+    "slug": "bia-nut-a4-khong-in-tron-vc-a4",
+    "name_vi": "Bìa Nút A4 (Không In) Trơn VC-A4",
+    "name_en": "Folder Snap A4 ( Unprinted ) Plain VC-A4",
+    "category": "bia-nut",
+    "categories": [
+      "bia-nut"
+    ],
+    "price_min": 2400,
+    "price_max": 2400,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/p-6129.jpg",
+    "gallery": [
+      "img/products/p-6129-g0.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 2400,
+    "price_regular": 2600
+  },
+  {
+    "id": 6284,
+    "slug": "bia-trinh-ky-nhua-don-thuoc-a5-5-mau",
+    "name_vi": "Bìa Trình Ký Nhựa Đơn Thước A5 (5 Màu)",
+    "name_en": "Folder Signature Plastic Single Ruler A5 ( 5-color )",
+    "category": "bia-trinh-ky",
+    "categories": [
+      "bia-trinh-ky"
+    ],
+    "price_min": 13050,
+    "price_max": 13050,
+    "has_range": false,
+    "variable": true,
+    "image": "img/products/bia-trinh-ky-nhua-don-thuoc-a5-5-mau-f1.jpg",
+    "gallery": [
+      "img/products/bia-trinh-ky-nhua-don-thuoc-a5-5-mau-f2.jpg",
+      "img/products/bia-trinh-ky-nhua-don-thuoc-a5-5-mau-f3.jpg",
+      "img/products/bia-trinh-ky-nhua-don-thuoc-a5-5-mau-f4.jpg",
+      "img/products/bia-trinh-ky-nhua-don-thuoc-a5-5-mau-f5.jpg"
+    ],
+    "featured": false,
+    "short_vi": "",
+    "price": 13050,
+    "price_regular": 16500
+  },
+  {
+    "id": 90007,
+    "slug": "bia-hop-simili-7-phan",
+    "name_vi": "Bìa Hộp SiMiLi – 7 Phân",
+    "name_en": "SiMiLi Box File – 7cm",
+    "category": "bia-hop",
+    "categories": [
+      "bia-hop"
+    ],
+    "price": 28000,
+    "price_regular": 31250,
+    "price_min": 28000,
+    "price_max": 28000,
+    "has_range": false,
+    "variable": false,
+    "image": "img/products/bia-hop-simili-7-phan-1.jpg",
+    "gallery": [],
+    "featured": false,
+    "short_vi": ""
+  },
+  {
+    "id": 90010,
+    "slug": "bia-hop-simili-10-phan",
+    "name_vi": "Bìa Hộp SiMiLi – 10 Phân",
+    "name_en": "SiMiLi Box File – 10cm",
+    "category": "bia-hop",
+    "categories": [
+      "bia-hop"
+    ],
+    "price": 31500,
+    "price_regular": 35100,
+    "price_min": 31500,
+    "price_max": 31500,
+    "has_range": false,
+    "variable": false,
+    "image": "img/products/bia-hop-simili-10-phan-1.jpg",
+    "gallery": [
+      "img/products/bia-hop-simili-10-phan-2.jpg",
+      "img/products/bia-hop-simili-10-phan-3.jpg",
+      "img/products/bia-hop-simili-10-phan-4.jpg"
+    ],
+    "featured": false,
+    "short_vi": ""
+  },
+  {
+    "id": 90015,
+    "slug": "bia-hop-simili-15-phan",
+    "name_vi": "Bìa Hộp SiMiLi – 15 Phân",
+    "name_en": "SiMiLi Box File – 15cm",
+    "category": "bia-hop",
+    "categories": [
+      "bia-hop"
+    ],
+    "price": 36400,
+    "price_regular": 39500,
+    "price_min": 36400,
+    "price_max": 36400,
+    "has_range": false,
+    "variable": false,
+    "image": "img/products/bia-hop-simili-15-phan-1.jpg",
+    "gallery": [
+      "img/products/bia-hop-simili-15-phan-2.jpg",
+      "img/products/bia-hop-simili-15-phan-3.jpg",
+      "img/products/bia-hop-simili-15-phan-4.jpg"
+    ],
+    "featured": false,
+    "short_vi": ""
+  },
+  {
+    "id": 90020,
+    "slug": "bia-hop-simili-20-phan",
+    "name_vi": "Bìa Hộp SiMiLi – 20 Phân",
+    "name_en": "SiMiLi Box File – 20cm",
+    "category": "bia-hop",
+    "categories": [
+      "bia-hop"
+    ],
+    "price": 41300,
+    "price_regular": 44400,
+    "price_min": 41300,
+    "price_max": 41300,
+    "has_range": false,
+    "variable": false,
+    "image": "img/products/bia-hop-simili-20-phan-1.jpg",
+    "gallery": [
+      "img/products/bia-hop-simili-20-phan-2.jpg",
+      "img/products/bia-hop-simili-20-phan-3.jpg",
+      "img/products/bia-hop-simili-20-phan-4.jpg"
+    ],
+    "featured": false,
+    "short_vi": ""
+  }
+]

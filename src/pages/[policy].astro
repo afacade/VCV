@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleContent from '../components/ArticleContent.astro';
+import pages from '../data/pages.json';
+import { policyPages } from '../data/site.js';
+export function getStaticPaths() {
+  return Object.keys(policyPages).map((slug) => ({ params: { policy: slug } }));
+}
+const lang = 'vi';
+const { policy } = Astro.params;
+const meta = policyPages[policy];
+const page = pages.find((p) => p.slug === policy);
+---
+<Base lang={lang} active="" path={`/${policy}`} title={meta.vi}>
+  <ArticleContent lang={lang} title={meta.vi} text={page?.text || ''} />
+</Base>

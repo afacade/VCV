@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleContent from '../../components/ArticleContent.astro';
+import posts from '../../data/posts.json';
+import { useT, href } from '../../i18n/ui.js';
+export function getStaticPaths() {
+  return posts.map((p) => ({ params: { slug: p.slug }, props: { post: p } }));
+}
+const lang = 'vi';
+const t = useT(lang);
+const { post } = Astro.props;
+---
+<Base lang={lang} active="news" path={`/tin-tuc/${post.slug}`} title={post.title} description={post.excerpt}>
+  <ArticleContent lang={lang} title={post.title} text={post.text} date={post.date}
+    crumbParent={{ label: t('news.title'), url: href(lang, '/tin-tuc') }} />
+</Base>

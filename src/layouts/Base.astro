@@ -1,0 +1,133 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Icon from '../components/Icon.astro';
+import { site } from '../data/site.js';
+import { useT, asset } from '../i18n/ui.js';
+
+const { lang = 'vi', title, description, active = '', path = '/' } = Astro.props;
+const t = useT(lang);
+const fullTitle = title ? `${title} — ${site.brand}` : `${site.brand} — ${t('hero.title')}`;
+const desc = description || t('hero.sub');
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={desc} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={desc} />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href={asset('img/logo.png')} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <Header lang={lang} active={active} path={path} />
+  <main>
+    <slot />
+  </main>
+  <Footer lang={lang} />
+
+  <!-- Floating quick-contact -->
+  <div class="floaty">
+    <a class="fbtn fbtn-phone" href={`tel:${site.phone_tel}`} aria-label="Call"><Icon name="phone" size={22} /></a>
+    <button class="fbtn fbtn-zalo" data-toggle="zalo-pop" aria-label="Zalo"><img src={asset('img/zalo.svg')} alt="Zalo" /></button>
+  </div>
+
+  <!-- Custom Zalo popup -->
+  <div class="zalo-pop" id="zalo-pop" hidden>
+    <div class="zp-head">
+      <img class="zp-logo" src={asset('img/zalo.svg')} alt="Zalo" />
+      <div class="zp-id"><b>{t('zalo.title')}</b><small>{site.brand}</small></div>
+      <button class="zp-x" data-toggle="zalo-pop" aria-label="Close">✕</button>
+    </div>
+    <div class="zp-body">
+      <p>{t('zalo.msg')}</p>
+      <a class="zp-open" href={site.zalo} target="_blank" rel="noopener"><img src={asset('img/zalo.svg')} alt="" />{t('zalo.open')}</a>
+      <div class="zp-phone"><Icon name="phone" size={15} /> <a href={`tel:${site.phone_tel}`}>{site.phone}</a></div>
+    </div>
+  </div>
+
+  <style>
+    .floaty{position:fixed;right:16px;bottom:16px;display:flex;flex-direction:column;gap:10px;z-index:60}
+    .fbtn{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:22px;border:0;cursor:pointer;padding:0;
+      box-shadow:0 8px 22px rgba(0,0,0,.22);background:var(--red)}
+    .fbtn-phone{animation:pulse 2s infinite}
+    .fbtn-zalo{background:#fff;overflow:hidden}
+    .fbtn-zalo img{width:54px;height:54px}
+    @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(225,27,34,.5)}70%{box-shadow:0 0 0 14px rgba(225,27,34,0)}100%{box-shadow:0 0 0 0 rgba(225,27,34,0)}}
+    .zalo-pop{position:fixed;right:16px;bottom:82px;width:300px;max-width:calc(100vw - 32px);background:#fff;border-radius:16px;
+      box-shadow:0 20px 50px rgba(0,0,0,.28);z-index:61;overflow:hidden;animation:zp-in .2s ease}
+    @keyframes zp-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    .zp-head{display:flex;align-items:center;gap:10px;background:#0068FF;color:#fff;padding:12px 14px}
+    .zp-head .zp-logo{width:34px;height:34px;border-radius:8px;background:#fff}
+    .zp-id b{display:block;font-size:14px}
+    .zp-id small{font-size:12px;opacity:.85}
+    .zp-x{margin-left:auto;background:transparent;border:0;color:#fff;font-size:16px;cursor:pointer;opacity:.9}
+    .zp-body{padding:16px 14px}
+    .zp-body p{margin:0 0 14px;font-size:13.5px;color:var(--slate);line-height:1.5}
+    .zp-open{display:flex;align-items:center;justify-content:center;gap:8px;background:#0068FF;color:#fff;font-weight:700;
+      padding:11px;border-radius:10px;font-size:14px}
+    .zp-open img{width:20px;height:20px;border-radius:4px;background:#fff}
+    .zp-phone{text-align:center;margin-top:12px;font-size:14px;color:var(--slate)}
+    .zp-phone a{color:var(--ink);font-weight:700}
+  </style>
+
+  <script>
+    // --- Toggles: mobile menu, category dropdown, Zalo popup ---
+    document.addEventListener('click', (e) => {
+      const tg = e.target.closest('[data-toggle]');
+      if (tg) {
+        const el = document.getElementById(tg.getAttribute('data-toggle'));
+        if (el) el.hidden = !el.hidden;
+        return;
+      }
+      // close category dropdown on outside click
+      document.querySelectorAll('[data-dropdown]').forEach((d) => {
+        if (!d.contains(e.target)) { const p = document.getElementById(d.getAttribute('data-dropdown')); if (p && !p.hidden) p.hidden = true; }
+      });
+      // close Zalo popup on outside click
+      const zp = document.getElementById('zalo-pop');
+      if (zp && !zp.hidden && !zp.contains(e.target) && !e.target.closest('.fbtn-zalo')) zp.hidden = true;
+    });
+    // Auto-open Zalo popup once per session
+    try {
+      if (!sessionStorage.getItem('vcv_zalo_seen')) {
+        setTimeout(() => { const zp = document.getElementById('zalo-pop'); if (zp) zp.hidden = false; sessionStorage.setItem('vcv_zalo_seen', '1'); }, 6000);
+      }
+    } catch (e) {}
+
+    // --- Favorites (per-browser via localStorage) ---
+    const FAV_KEY = 'vcv_favs';
+    const getFavs = () => { try { return JSON.parse(localStorage.getItem(FAV_KEY) || '[]'); } catch (e) { return []; } };
+    const setFavs = (a) => { try { localStorage.setItem(FAV_KEY, JSON.stringify(a)); } catch (e) {} };
+    function refreshFavs() {
+      const favs = getFavs();
+      document.querySelectorAll('[data-fav-id]').forEach((b) => {
+        const on = favs.includes(b.getAttribute('data-fav-id'));
+        b.classList.toggle('on', on); b.setAttribute('aria-pressed', on);
+      });
+      document.querySelectorAll('[data-fav-count]').forEach((el) => { const n = favs.length; el.textContent = n; el.hidden = n === 0; });
+      const page = document.getElementById('fav-page');
+      if (page) {
+        let shown = 0;
+        page.querySelectorAll('[data-fav-item]').forEach((it) => { const on = favs.includes(it.getAttribute('data-fav-item')); it.hidden = !on; if (on) shown++; });
+        const empty = document.getElementById('fav-empty'); if (empty) empty.hidden = shown !== 0;
+        const grid = document.getElementById('fav-grid'); if (grid) grid.hidden = shown === 0;
+        const cnt = document.getElementById('fav-page-count'); if (cnt) cnt.textContent = shown;
+      }
+    }
+    document.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-fav-id]');
+      if (b) { e.preventDefault(); e.stopPropagation(); const id = b.getAttribute('data-fav-id'); const favs = getFavs(); const i = favs.indexOf(id); if (i > -1) favs.splice(i, 1); else favs.push(id); setFavs(favs); refreshFavs(); }
+    });
+    refreshFavs();
+    window.addEventListener('pageshow', refreshFavs);
+  </script>
+</body>
+</html>

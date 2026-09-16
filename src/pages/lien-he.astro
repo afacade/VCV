@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import ContactContent from '../components/ContactContent.astro';
+import { useT } from '../i18n/ui.js';
+const lang = 'vi';
+const t = useT(lang);
+---
+<Base lang={lang} active="contact" path="/lien-he" title={t('nav.contact')}>
+  <ContactContent lang={lang} />
+</Base>

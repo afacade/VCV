@@ -1,0 +1,92 @@
+---
+import ProductCard from './ProductCard.astro';
+import Icon from './Icon.astro';
+import categories from '../data/categories.json';
+import allProducts from '../data/products.json';
+import { useT, href } from '../i18n/ui.js';
+
+const { lang = 'vi', category = null } = Astro.props;
+const t = useT(lang);
+const catName = (c) => (lang === 'en' ? c.en : c.vi);
+const activeCat = category ? categories.find((c) => c.slug === category) : null;
+const list = category ? allProducts.filter((p) => p.categories.includes(category)) : allProducts;
+const heading = activeCat ? catName(activeCat) : t('label.allProducts');
+---
+<div class="wrap">
+  <nav class="crumbs">
+    <a href={href(lang, '/')}>{t('nav.home')}</a><span>/</span>
+    <a href={href(lang, '/san-pham')}>{t('nav.products')}</a>
+    {activeCat && <><span>/</span>{catName(activeCat)}</>}
+  </nav>
+</div>
+
+<div class="plist-head">
+  <div class="wrap ph-in">
+    <div>
+      <h1>{heading}</h1>
+      <p class="muted"><span id="pcount">{list.length}</span> {t('label.products')}</p>
+    </div>
+    <div class="psearch">
+      <input type="text" id="psearch" placeholder={t('search.placeholder')} autocomplete="off" />
+      <span><Icon name="search" size={16} /></span>
+    </div>
+  </div>
+</div>
+
+<section class="plist">
+  <div class="wrap">
+    <div class="chips">
+      <a class={!category ? 'chip on' : 'chip'} href={href(lang, '/san-pham')}>{t('label.allProducts')}</a>
+      {categories.map((c) => (
+        <a class={category === c.slug ? 'chip on' : 'chip'} href={href(lang, `/danh-muc/${c.slug}`)}>{catName(c)} <em>{c.count}</em></a>
+      ))}
+    </div>
+
+    <div class="pgrid" id="pgrid">
+      {list.map((p) => (
+        <div class="pgrid-item" data-name={(p.name_vi + ' ' + p.name_en).toLowerCase()}>
+          <ProductCard lang={lang} product={p} />
+        </div>
+      ))}
+    </div>
+    <p class="empty" id="empty" hidden>{t('search.empty')}</p>
+  </div>
+</section>
+
+<style>
+  .plist-head{background:var(--soft);border-bottom:1px solid var(--line)}
+  .ph-in{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0;flex-wrap:wrap}
+  .plist-head h1{font-size:26px}
+  .psearch{position:relative;min-width:280px;flex:1;max-width:360px}
+  .psearch input{width:100%;border:1px solid var(--line);border-radius:10px;padding:11px 40px 11px 14px;font-family:inherit;font-size:14px;background:#fff;outline:none}
+  .psearch input:focus{border-color:var(--blue)}
+  .psearch span{position:absolute;right:14px;top:50%;transform:translateY(-50%);opacity:.6}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+  .chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600;color:var(--slate)}
+  .chip:hover{border-color:var(--blue);color:var(--blue)}
+  .chip.on{background:var(--blue);border-color:var(--blue);color:#fff}
+  .chip em{font-style:normal;opacity:.7;font-size:11px}
+  .empty{text-align:center;color:var(--slate);padding:40px 0}
+</style>
+
+<script>
+  const input = document.getElementById('psearch');
+  const grid = document.getElementById('pgrid');
+  const count = document.getElementById('pcount');
+  const empty = document.getElementById('empty');
+  const items = grid ? Array.from(grid.querySelectorAll('.pgrid-item')) : [];
+  function apply(q) {
+    q = (q || '').trim().toLowerCase();
+    let shown = 0;
+    items.forEach((it) => {
+      const hit = !q || it.dataset.name.includes(q);
+      it.hidden = !hit;
+      if (hit) shown++;
+    });
+    if (count) count.textContent = shown;
+    if (empty) empty.hidden = shown !== 0;
+  }
+  const q0 = new URLSearchParams(location.search).get('q');
+  if (q0 && input) { input.value = q0; apply(q0); }
+  if (input) input.addEventListener('input', (e) => apply(e.target.value));
+</script>

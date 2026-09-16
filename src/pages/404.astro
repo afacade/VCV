@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../i18n/ui.js';
+const lang = 'vi';
+---
+<Base lang={lang} path="/" title="404">
+  <section class="nf">
+    <div class="wrap">
+      <h1>404</h1>
+      <p>Rất tiếc, không tìm thấy trang bạn yêu cầu.</p>
+      <a class="btn btn-red btn-lg" href={href(lang, '/')}>← Về trang chủ</a>
+    </div>
+  </section>
+  <style>.nf{padding:80px 0;text-align:center}.nf h1{font-size:72px;color:var(--blue)}.nf p{color:var(--slate);margin:8px 0 22px}</style>
+</Base>
