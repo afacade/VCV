@@ -1,12 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
-import ArticleContent from '../../components/ArticleContent.astro';
-import pages from '../../data/pages.json';
+import FAQContent from '../../components/FAQContent.astro';
 import { infoPages } from '../../data/site.js';
 const lang = 'en';
 const meta = infoPages['cau-hoi-thuong-gap'];
-const page = pages.find((p) => p.slug === 'cau-hoi-thuong-gap');
 ---
 <Base lang={lang} active="faq" path="/cau-hoi-thuong-gap" title={meta.en}>
-  <ArticleContent lang={lang} title={meta.en} text={page?.text || ''} />
+  <FAQContent lang={lang} />
 </Base>

@@ -37,18 +37,23 @@ const factory = L(site.address_factory_vi, site.address_factory_en).replace(/^.*
         ))}
       </ul>
     </aside>
-    <div class="info-card">
-      <span class="pill">{t('label.company')}</span>
-      <h1>{site.brand}</h1>
-      <p class="legal">{L(site.company_vi, site.company_en)}</p>
-      <div class="info-rows">
-        <div class="ir"><span class="ic"><Icon name="factory" size={19} /></span><div><b>{t('label.factory')}</b><span>{factory}</span></div></div>
-        <div class="ir"><span class="ic"><Icon name="warehouse" size={19} /></span><div><b>{t('label.warehouse')}</b><span>{warehouse}</span></div></div>
-        <div class="ir phone-row"><span class="ic"><Icon name="phone" size={19} /></span><div><b>{t('label.contact')}</b><a href={`tel:${site.phone_tel}`}>{site.phone}</a> · Hotline {site.hotline}</div></div>
-      </div>
-      <div class="info-cta">
-        <a class="btn btn-red btn-lg" href={href(lang, '/san-pham')}>{L('Xem sản phẩm', 'Browse products')}</a>
-        <a class="btn btn-ghost btn-lg" href={`mailto:${site.email}?subject=${encodeURIComponent(t('quote.subject'))}`}>{t('cta.quote')}</a>
+    <div class="hero-right">
+      <a class="hero-banner" href={href(lang, '/san-pham')}>
+        <img src={asset('img/banner2.png')} alt={`${site.brand} — cung cấp các loại bìa`} />
+      </a>
+      <div class="info-card">
+        <span class="pill">{t('label.company')}</span>
+        <h1>{site.brand}</h1>
+        <p class="legal">{L(site.company_vi, site.company_en)}</p>
+        <div class="info-rows">
+          <div class="ir"><span class="ic"><Icon name="factory" size={19} /></span><div><b>{t('label.factory')}</b><span>{factory}</span></div></div>
+          <div class="ir"><span class="ic"><Icon name="warehouse" size={19} /></span><div><b>{t('label.warehouse')}</b><span>{warehouse}</span></div></div>
+          <div class="ir phone-row"><span class="ic"><Icon name="phone" size={19} /></span><div><b>{t('label.contact')}</b><a href={`tel:${site.phone_tel}`}>{site.phone}</a> · Hotline {site.hotline}</div></div>
+        </div>
+        <div class="info-cta">
+          <a class="btn btn-red btn-lg" href={href(lang, '/san-pham')}>{L('Xem sản phẩm', 'Browse products')}</a>
+          <a class="btn btn-ghost btn-lg" href={`mailto:${site.email}?subject=${encodeURIComponent(t('quote.subject'))}`}>{t('cta.quote')}</a>
+        </div>
       </div>
     </div>
   </div>
@@ -121,7 +126,10 @@ const factory = L(site.address_factory_vi, site.address_factory_en).replace(/^.*
 <style>
   /* Hero A */
   .hero-a{background:var(--soft);padding:16px 0 26px}
-  .hero-a-grid{display:grid;grid-template-columns:260px 1fr;gap:20px;align-items:stretch}
+  .hero-a-grid{display:grid;grid-template-columns:260px 1fr;gap:20px;align-items:start}
+  .hero-right{display:flex;flex-direction:column;gap:16px}
+  .hero-banner{display:block;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);line-height:0}
+  .hero-banner img{width:100%;height:auto;display:block}
   .cat-side{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;align-self:start}
   .cs-head{background:var(--blue-d);color:#fff;font-weight:700;font-size:14px;padding:13px 18px}
   .cat-side ul{list-style:none;margin:0;padding:0}
